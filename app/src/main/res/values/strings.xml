@@ -8,4 +8,6 @@
     <string name="time_task">Hora</string>
     <string name="cancel_task">Cancelar</string>
     <string name="description_button_new_task">Nova Tarefa</string>
+    <string name="action_menu_edit">Editar</string>
+    <string name="action_menu_delete">Excluir</string>
 </resources>
