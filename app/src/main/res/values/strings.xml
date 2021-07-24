@@ -7,4 +7,5 @@
     <string name="date_task">Data</string>
     <string name="time_task">Hora</string>
     <string name="cancel_task">Cancelar</string>
+    <string name="description_button_new_task">Nova Tarefa</string>
 </resources>
