@@ -55,6 +55,7 @@ class AddTaskActivity : AppCompatActivity() {
                 hour = binding.inputLayoutTime.text
             )
             TaskDataSource.insertTask(task)
+            finish()
         }
     }
 
