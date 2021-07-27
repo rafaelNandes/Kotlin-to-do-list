@@ -70,7 +70,6 @@ class AddTaskActivity : AppCompatActivity() {
                 hour = binding.inputLayoutTime.text,
                 id = intent.getIntExtra(TASK_ID, 0)
             )
-
             TaskDataSource.insertTask(task)
             setResult(Activity.RESULT_OK)
             finish()

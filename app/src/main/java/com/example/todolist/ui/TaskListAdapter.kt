@@ -28,7 +28,7 @@ class TaskListAdapter : ListAdapter<Task, TaskListAdapter.TaskViewHolder>(DiffCa
 
         private fun showPopup(item: Task) {
             val ivMore =  binding.imagemViewMore
-            val popupMenu = PopupMenu(ivMore.context,ivMore)
+            val popupMenu = PopupMenu(ivMore.context, ivMore)
             popupMenu.menuInflater.inflate(R.menu.popup_menu, popupMenu.menu)
             popupMenu.setOnMenuItemClickListener {
                 when (it.itemId) {
